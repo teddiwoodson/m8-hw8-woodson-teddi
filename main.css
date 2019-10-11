@@ -29,8 +29,10 @@
   box-sizing: border-box;
 }
 .products {
-  display: none;
+  height: 0px;
+  overflow: hidden;
 }
 .show-menu {
   display: block;
+  height: 185px;
 }
