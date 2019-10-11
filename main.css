@@ -31,8 +31,10 @@
 .products {
   height: 0px;
   overflow: hidden;
+  transition: .5s;
 }
 .show-menu {
   display: block;
   height: 185px;
+  transition: .5s;
 }
