@@ -14,16 +14,17 @@ function dissapear() {
 }
 productsTab.addEventListener('mouseleave', dissapear);
 
+
 //services
 var servicesTab = document.getElementById('services');
 var servicesOptions = document.querySelector('.services');
 //dropdown
-function dropdown() {
+function dropdown2() {
   servicesOptions.classList.add('show-menu');
 }
-servicesTab.addEventListener('mouseover', dropdown);
+servicesTab.addEventListener('mouseover', dropdown2);
 //dissappear
-function dissapear() {
+function dissapear2() {
   servicesOptions.classList.remove('show-menu');
 }
-services.addEventListener('mouseleave', dissapear);
+services.addEventListener('mouseleave', dissapear2);
