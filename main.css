@@ -38,6 +38,11 @@
   overflow: hidden;
   transition: .5s;
 }
+.company {
+  height: 0px;
+  overflow: hidden;
+  transition: .5s;
+}
 .show-menu {
   display: block;
   height: 185px;
